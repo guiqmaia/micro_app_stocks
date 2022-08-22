@@ -6,8 +6,8 @@ import '../../../../domain/entities/stock_entity.dart';
 import '../../../riverpod/stocks_provider.dart';
 import 'list_view_stocks_home.dart';
 
-class BodyHome extends HookConsumerWidget {
-  const BodyHome({Key? key}) : super(key: key);
+class BodyStocks extends HookConsumerWidget {
+  const BodyStocks({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
